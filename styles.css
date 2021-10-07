@@ -20,15 +20,11 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Courier";
     background-color: #b2beb5;
-    margin-left: 50%
-    margin-right: 50%
-}
-
-img {
-    width: 75%;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 .container {
@@ -37,21 +33,15 @@ img {
     /* Added a max-width so that this one style block works on all devices */
     max-width: 1200px;
     /* Margin to center the container when it's not the full width */
-    margin: 0 auto;
 }
 
 .top {
     max-width: 100%;
     padding: 10px;
 }
-
-figure {
-    margin: auto;
-}
-
-.main_img {
+/* .main_img {
     width: 100%;
-}
+} */
 
 h1 {
 text-align: center;
@@ -59,45 +49,77 @@ text-align: center;
 }
 p{
   color: black;
-  font: helvetica;
-  text-align: left;
-}
-
-figure{
-  width:85%;
-  max-width:1200px;
+  text-align: justify;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .flexbox-container{
-  display: flex; flex-direction: column;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  gap: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 figure {
-    display: block;
-    width: 100%;
+    width: 85%;
     max-width: 1200px;
 }
 
 figcaption {
-    font-size: 1.2em;
-    padding: 10px;
-    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    font-style: italic;
 }
 
-section img {
-
-  width: 10%;
+img {
+  width: 95%;
   max-width: 1000px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+
+section img {
+  width: 20%;
+  max-width: 1000px;
+  border: 2px #ffffff solid;
 }
 
 section{
   display: flex;
+  background-color: #DBD5B5;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 section p{
-  max-width: 800px;
+  max-width: 1000px;
 }
+
+/* .contentbox {
+  margin-left: 20%;
+  margin-right: 20%;
+} */
+
+/* .center{
+  display:block;
+  /* margin-left:auto;
+  margin-right:auto; */
+  width:100%;
+} */
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
